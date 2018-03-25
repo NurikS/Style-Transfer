@@ -28,7 +28,7 @@ will be preserved but it will look like if Van Gogh has drawn it. To achieve
 that we have to define so called loss function. Loss function calculates the
 difference between the output that we got and the target output. For style
 transfer, we will need 2 loss functions, one for content and one for style. The
-content loss is pretty straight-forward, we are just going to calculated the Euclidean
+content loss is pretty straight-forward, we are just going to calculate the Euclidean
 distance between feature representations of our content image and our generated image. For style loss, it is a
 little bit trickier. You see, it is not that easy to define, what “style” is.
 The main breakthrough of this project, in my opinion, is that it succeeded to
